@@ -1,0 +1,21 @@
+{
+  "name": "jest-inline-snapshots-reproducer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "time": "time node -e \"require('jest-snapshot')\"",
+    "unpatched": "patch-package --reverse && npm run time",
+    "patched": "patch-package && npm run time"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swcm-mnestler/jest-inline-snapshots-reproducer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/swcm-mnestler/jest-inline-snapshots-reproducer#readme",
+  "devDependencies": {
+    "jest-snapshot": "29.4.1",
+    "patch-package": "6.5.1"
+  }
+}

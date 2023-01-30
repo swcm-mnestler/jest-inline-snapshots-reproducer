@@ -1,0 +1,13 @@
+diff --git a/node_modules/jest-snapshot/build/State.js b/node_modules/jest-snapshot/build/State.js
+index f2ba4dd..5e1ade4 100644
+--- a/node_modules/jest-snapshot/build/State.js
++++ b/node_modules/jest-snapshot/build/State.js
+@@ -6,7 +6,7 @@ Object.defineProperty(exports, '__esModule', {
+ exports.default = void 0;
+ var fs = _interopRequireWildcard(require('graceful-fs'));
+ var _jestMessageUtil = require('jest-message-util');
+-var _InlineSnapshots = require('./InlineSnapshots');
++var _InlineSnapshots = undefined; // require('./InlineSnapshots');
+ var _utils = require('./utils');
+ function _getRequireWildcardCache(nodeInterop) {
+   if (typeof WeakMap !== 'function') return null;
